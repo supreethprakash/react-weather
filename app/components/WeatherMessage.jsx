@@ -19,7 +19,7 @@ var WeatherMessage = (props) => {
   var temp = props.temp;
   if(city.length != 0) {
     return(
-      <h3>The temperature of {city} is {temp}</h3>
+      <h3 className="text-center">The temperature of {city} is {temp}</h3>
     );
 } else {
   return(<h3></h3>);
